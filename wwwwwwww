@@ -1,0 +1,434 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+ 
+local Window = OrionLib:MakeWindow({Name = "Qrto All Scripts", HidePremium = false, SaveConfig = true, IntroText = "Qrto Hub", ConfigFolder = "Qrto"})
+ 
+local RandomTab = Window:MakeTab({
+	Name = "Blox Fruit",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = RandomTab:AddSection({
+	Name = "Sub To Qrto"
+})
+ 
+RandomTab:AddButton({
+	Name = "Raito Hub ( Void Hub )",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Efe0626/RaitoHub/main/Script"))()
+      		print("button pressed")
+  	end    
+})
+ 
+RandomTab:AddButton({
+	Name = "Sonic Turu Chest Farm",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/NickelHUBB/SonicTuru/main/ChestFarmOp"))()
+      		print("button pressed")
+  	end    
+})
+ 
+RandomTab:AddButton({
+	Name = "Neva Hub Aim Bot",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/VEZ2/NEVA-HUB/main/Aimbot"))()
+      		print("button pressed")
+  	end    
+})
+ 
+RandomTab:AddButton({
+	Name = "HoHo Hub V3",
+	Callback = function()
+        _G.HohoVersion = "v3"
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+      		print("button pressed")
+  	end    
+})
+ 
+RandomTab:AddButton({
+	Name = "HoHo Hub Auto Bounty",
+	Callback = function()
+        repeat wait() until game:IsLoaded()
+        _G["HoHo Hub Auto Bounty V3"] = {
+            ["Avatar"] = "https://i.ibb.co/DL019xs/d5b46cd41ff4610dd5f6f0a64ff66dfa.png",
+        
+              ["Farm Method"] = "Normal", -- Normal or Gun
+            ["Select Team"] = "Marine", -- Pirate/Marine
+            ["Discord Webhook"] = "",
+            ["Bypass Teleport"] = true,
+            ["Max Level Distance"] = 612, -- 612 is took from wiki but u can change it
+            ["Don't attack friends"] = true,
+            ["Don't attack player have cup"] = false,
+            ["Distance Attack Y"] = 6, -- Shark Race = 0; Another >= 6
+            ["Chat After Kill"] = {
+                ["Active"] = true,
+                ["List Chat"] = {"i have a good gaming chair","No skill? Use Hoho hub"},
+            },
+            ["Yourself"] = {
+                ["Invisible From Ken"] = true,
+                ["No Stun"] = true,
+            },
+            ["SafeZone"] = {Enabled = true, ["Health Left (%)"] = 40, ["Wait Until Heal (%)"] = 90},
+            ["Time Control"] = {
+                ["Max Time Target Player"] = 120,
+            },
+            ["Abilities"] = {
+                ["Auto Click"] = true,
+                ["Melee"] = {
+                    Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                    X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                    C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                },
+                ["Sword"] = {
+                    Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                    X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                },
+                ["Gun"] = {
+                    Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                    X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                },
+                ["Fruit"] = {
+                    Z = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                    X = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                    C = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                    V = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                    F = {Enabled = true, Hold = 0.05, WaitNextSkill = 0.6},
+                },
+            },
+        }
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+      		print("button pressed")
+  	end    
+})
+ 
+RandomTab:AddButton({
+	Name = "Sea Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Fiend1sh/FiendMain/main/SeaLoader"))()
+      		print("button pressed")
+  	end    
+})
+ 
+RandomTab:AddButton({
+	Name = "Hamster Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/tngaming123/YTB-TNGaming/main/TiHub.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+local AnimeTab = Window:MakeTab({
+	Name = "Anime warrior sim 2 ",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = AnimeTab:AddSection({
+	Name = "Sub To Qrto"
+})
+
+AnimeTab:AddButton({
+	Name = "Platinium Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Loader/main/PlatiniumLoader"))()
+      		print("button pressed")
+  	end    
+})
+
+local ArmTab = Window:MakeTab({
+	Name = "Arm Wrestle Sim",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = ArmTab:AddSection({
+	Name = "Sub To Qrto"
+})
+
+ArmTab:AddButton({
+	Name = "Flame Hub ( Skull Hub )",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/1Toxin/flame/main/loader"))()
+      		print("button pressed")
+  	end    
+})
+ 
+ArmTab:AddButton({
+	Name = "LDS Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/limaspeedy/limaspeedy/main/HubLDS"))()
+      		print("button pressed")
+  	end    
+})
+ 
+ArmTab:AddButton({
+	Name = "Pikachu Hub ( No Key )",
+	Callback = function()
+        loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/99d16edc79729a038994f85ce7335971.lua"))()
+      		print("button pressed")
+  	end    
+})
+
+local RainbowTab = Window:MakeTab({
+	Name = "Rainbow Friends 2",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = RainbowTab:AddSection({
+	Name = "Sub To Qrto"
+})
+ 
+RainbowTab:AddButton({
+	Name = "Tora IsMe Script",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0rainbow'))()
+      		print("button pressed")
+  	end    
+})
+
+local PsxTab = Window:MakeTab({
+	Name = "Psx",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = PsxTab:AddSection({
+	Name = "Sub To Qrto"
+})
+ 
+PsxTab:AddButton({
+	Name = "BlackTrap 🏴",
+	Callback = function()
+      loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Blacktrap-Script-All-in-One-8568"))()
+      		print("button pressed")
+  	end    
+})
+ 
+PsxTab:AddButton({
+	Name = "Unlock All Hoverboard FE 🏄",
+	Callback = function()
+      loadstring(game:HttpGet("https://scriptblox.com/raw/Universal-Script-Equip-any-hoverboard-VISUAL-9480"))()
+      		print("button pressed")
+  	end    
+})
+ 
+PsxTab:AddButton({
+	Name = "Cloud Hub ☁️",
+	Callback = function()
+      loadstring(game:HttpGet("https://raw.githubusercontent.com/BadScripters/CloudHub/main/hub"))()
+      		print("button pressed")
+  	end    
+})
+
+PsxTab:AddButton({
+	Name = "Project WD",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Muhammad6196/Project-WD/main/Mainstring.lua"))()
+      		print("button pressed")
+  	end    
+})
+ 
+local ProjectTab = Window:MakeTab({
+	Name = "Project Slayer",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = ProjectTab:AddSection({
+	Name = "Subscribe to Qrto"
+})
+ 
+ProjectTab:AddButton({
+	Name = "Sylveon Hub",
+	Callback = function()
+        local LoaderUrl = "https://raw.githubusercontent.com/ogamertv12/SylveonHub/main/Mobile.lua"
+        repeat wait() until game:IsLoaded()
+        loadstring(game:HttpGet(LoaderUrl))()
+      		print("button pressed")
+  	end    
+})
+ 
+ProjectTab:AddButton({
+	Name = "Random Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/asterionnn/versaware_free/main/VersawareFree.lua", true))()
+      		print("button pressed")
+  	end    
+})
+
+local SlapTab = Window:MakeTab({
+	Name = "Slap Battle",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = SlapTab:AddSection({
+	Name = "Subscribe to Qrto"
+})
+ 
+SlapTab:AddButton({
+	Name = "Purple Gui",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/cheesynob39/R2O/main/LOADSTRING.lua"))() 
+      		print("button pressed")
+  	end    
+})
+
+local AfsTab = Window:MakeTab({
+	Name = "Afs",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = AfsTab:AddSection({
+	Name = "Subscribe to Qrto"
+})
+
+AfsTab:AddButton({
+	Name = "Platinium Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ZaRdoOx/Loader/main/PlatiniumLoader"))()
+      		print("button pressed")
+  	end    
+})
+ 
+local SwordTab = Window:MakeTab({
+	Name = "Sword  Warriors",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = SwordTab:AddSection({
+	Name = "Subscribe to Qrto"
+})
+SwordTab:AddButton({
+	Name = "Tora IsMe",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0SwordWarriors"))()l
+      		print("button pressed")
+  	end    
+})
+ 
+local BuildingTab = Window:MakeTab({
+	Name = "Building towers to fly farther",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = BuildingTab:AddSection({
+	Name = "Subscribe to Qrto"
+})
+
+BuildingTab:AddButton({
+	Name = "Inf Coin",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/DEVIL-Script/DEVIL-Hub/main/DEVIL-Hub-Main", true))()
+      		print("button pressed")
+  	end    
+})
+
+local AdoptTab = Window:MakeTab({
+	Name = "Adopt Me",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = AdoptTab:AddSection({
+	Name = "Subscribe to Qrto"
+})
+ 
+AdoptTab:AddButton({
+	Name = "Keyless Script",
+	Callback = function()
+        loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()
+      		print("button pressed")
+  	end    
+})
+ 
+local NinjaTab = Window:MakeTab({
+	Name = "Ninja Fighting Simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = NinjaTab:AddSection({
+	Name = "Subscribe to Qrto"
+})
+NinjaTab:AddButton({
+	Name = "Tora IsMe",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0Ninja"))()
+      		print("button pressed")
+  	end    
+})
+ 
+local PetTab = Window:MakeTab({
+	Name = "Pet Racer Simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = PetTab:AddSection({
+	Name = "Subscribe to Qrto"
+})
+
+PetTab:AddButton({
+	Name = "Tora IsMe",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0PetRacer"))()
+      		print("button pressed")
+  	end    
+})
+ 
+local PunchTab = Window:MakeTab({
+	Name = "Punch Simulator 👊",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = PunchTab:AddSection({
+	Name = "Subscribe to Qrto"
+})
+
+PetTab:AddButton({
+	Name = "Tora IsMe",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0PUNCH"))()
+      		print("button pressed")
+  	end    
+})
+
+PunchTab:AddButton({
+	Name = "EsohaSL",
+	Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Utilities/main/Closed/Punch%20Simulator.lua"))()
+      		print("button pressed")
+  	end    
+})
+ 
+PunchTab:AddButton({
+	Name = "Perfectus Hub",
+	Callback = function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/PerfectusMim/dbevo/main/asfasfasfasf'))()
+      		print("button pressed")
+  	end    
+})
+
+local PushTab = Window:MakeTab({
+	Name = "Push Simulator",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+ 
+local Section = PushTab:AddSection({
+	Name = "Subscribe to Qrto"
+})
+
+PushTab:AddButton({
+	Name = "Random Hub",
+	Callback = function()
+        loadstring(game:HttpGet("https://pastebin.com/raw/YKT5w84y"))()
+      		print("button pressed")
+  	end    
+})
